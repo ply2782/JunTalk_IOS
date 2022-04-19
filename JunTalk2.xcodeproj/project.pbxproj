@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDAA89BF280EFA5A00081A7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA89BE280EFA5A00081A7F /* AppDelegate.swift */; };
+		BDAA89C1280EFA5A00081A7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA89C0280EFA5A00081A7F /* SceneDelegate.swift */; };
+		BDAA89C3280EFA5B00081A7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA89C2280EFA5A00081A7F /* ViewController.swift */; };
+		BDAA89C6280EFA5B00081A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAA89C4280EFA5B00081A7F /* Main.storyboard */; };
+		BDAA89C8280EFA5B00081A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAA89C7280EFA5B00081A7F /* Assets.xcassets */; };
+		BDAA89CB280EFA5B00081A7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAA89C9280EFA5B00081A7F /* LaunchScreen.storyboard */; };
+		BDAA89D6280EFA5C00081A7F /* JunTalk2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA89D5280EFA5C00081A7F /* JunTalk2Tests.swift */; };
+		BDAA89E1280EFA5C00081A7F /* JunTalk2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA89E0280EFA5C00081A7F /* JunTalk2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDAA89D2280EFA5C00081A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDAA89B3280EFA5A00081A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAA89BA280EFA5A00081A7F;
+			remoteInfo = JunTalk2;
+		};
+		BDAA89DD280EFA5C00081A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDAA89B3280EFA5A00081A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAA89BA280EFA5A00081A7F;
+			remoteInfo = JunTalk2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDAA89BB280EFA5A00081A7F /* JunTalk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JunTalk2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAA89BE280EFA5A00081A7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDAA89C0280EFA5A00081A7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDAA89C2280EFA5A00081A7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDAA89C5280EFA5B00081A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDAA89C7280EFA5B00081A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDAA89CA280EFA5B00081A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDAA89CC280EFA5B00081A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAA89D1280EFA5C00081A7F /* JunTalk2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JunTalk2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAA89D5280EFA5C00081A7F /* JunTalk2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunTalk2Tests.swift; sourceTree = "<group>"; };
+		BDAA89D7280EFA5C00081A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAA89DC280EFA5C00081A7F /* JunTalk2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JunTalk2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAA89E0280EFA5C00081A7F /* JunTalk2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunTalk2UITests.swift; sourceTree = "<group>"; };
+		BDAA89E2280EFA5C00081A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDAA89B8280EFA5A00081A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAA89CE280EFA5C00081A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAA89D9280EFA5C00081A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDAA89B2280EFA5A00081A7F = {
+			isa = PBXGroup;
+			children = (
+				BDAA89BD280EFA5A00081A7F /* JunTalk2 */,
+				BDAA89D4280EFA5C00081A7F /* JunTalk2Tests */,
+				BDAA89DF280EFA5C00081A7F /* JunTalk2UITests */,
+				BDAA89BC280EFA5A00081A7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDAA89BC280EFA5A00081A7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDAA89BB280EFA5A00081A7F /* JunTalk2.app */,
+				BDAA89D1280EFA5C00081A7F /* JunTalk2Tests.xctest */,
+				BDAA89DC280EFA5C00081A7F /* JunTalk2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDAA89BD280EFA5A00081A7F /* JunTalk2 */ = {
+			isa = PBXGroup;
+			children = (
+				BDAA89BE280EFA5A00081A7F /* AppDelegate.swift */,
+				BDAA89C0280EFA5A00081A7F /* SceneDelegate.swift */,
+				BDAA89C2280EFA5A00081A7F /* ViewController.swift */,
+				BDAA89C4280EFA5B00081A7F /* Main.storyboard */,
+				BDAA89C7280EFA5B00081A7F /* Assets.xcassets */,
+				BDAA89C9280EFA5B00081A7F /* LaunchScreen.storyboard */,
+				BDAA89CC280EFA5B00081A7F /* Info.plist */,
+			);
+			path = JunTalk2;
+			sourceTree = "<group>";
+		};
+		BDAA89D4280EFA5C00081A7F /* JunTalk2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BDAA89D5280EFA5C00081A7F /* JunTalk2Tests.swift */,
+				BDAA89D7280EFA5C00081A7F /* Info.plist */,
+			);
+			path = JunTalk2Tests;
+			sourceTree = "<group>";
+		};
+		BDAA89DF280EFA5C00081A7F /* JunTalk2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDAA89E0280EFA5C00081A7F /* JunTalk2UITests.swift */,
+				BDAA89E2280EFA5C00081A7F /* Info.plist */,
+			);
+			path = JunTalk2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDAA89BA280EFA5A00081A7F /* JunTalk2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAA89E5280EFA5C00081A7F /* Build configuration list for PBXNativeTarget "JunTalk2" */;
+			buildPhases = (
+				BDAA89B7280EFA5A00081A7F /* Sources */,
+				BDAA89B8280EFA5A00081A7F /* Frameworks */,
+				BDAA89B9280EFA5A00081A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JunTalk2;
+			productName = JunTalk2;
+			productReference = BDAA89BB280EFA5A00081A7F /* JunTalk2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDAA89D0280EFA5C00081A7F /* JunTalk2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAA89E8280EFA5C00081A7F /* Build configuration list for PBXNativeTarget "JunTalk2Tests" */;
+			buildPhases = (
+				BDAA89CD280EFA5C00081A7F /* Sources */,
+				BDAA89CE280EFA5C00081A7F /* Frameworks */,
+				BDAA89CF280EFA5C00081A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDAA89D3280EFA5C00081A7F /* PBXTargetDependency */,
+			);
+			name = JunTalk2Tests;
+			productName = JunTalk2Tests;
+			productReference = BDAA89D1280EFA5C00081A7F /* JunTalk2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDAA89DB280EFA5C00081A7F /* JunTalk2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAA89EB280EFA5C00081A7F /* Build configuration list for PBXNativeTarget "JunTalk2UITests" */;
+			buildPhases = (
+				BDAA89D8280EFA5C00081A7F /* Sources */,
+				BDAA89D9280EFA5C00081A7F /* Frameworks */,
+				BDAA89DA280EFA5C00081A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDAA89DE280EFA5C00081A7F /* PBXTargetDependency */,
+			);
+			name = JunTalk2UITests;
+			productName = JunTalk2UITests;
+			productReference = BDAA89DC280EFA5C00081A7F /* JunTalk2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDAA89B3280EFA5A00081A7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BDAA89BA280EFA5A00081A7F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BDAA89D0280EFA5C00081A7F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BDAA89BA280EFA5A00081A7F;
+					};
+					BDAA89DB280EFA5C00081A7F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BDAA89BA280EFA5A00081A7F;
+					};
+				};
+			};
+			buildConfigurationList = BDAA89B6280EFA5A00081A7F /* Build configuration list for PBXProject "JunTalk2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDAA89B2280EFA5A00081A7F;
+			productRefGroup = BDAA89BC280EFA5A00081A7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDAA89BA280EFA5A00081A7F /* JunTalk2 */,
+				BDAA89D0280EFA5C00081A7F /* JunTalk2Tests */,
+				BDAA89DB280EFA5C00081A7F /* JunTalk2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDAA89B9280EFA5A00081A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAA89CB280EFA5B00081A7F /* LaunchScreen.storyboard in Resources */,
+				BDAA89C8280EFA5B00081A7F /* Assets.xcassets in Resources */,
+				BDAA89C6280EFA5B00081A7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAA89CF280EFA5C00081A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAA89DA280EFA5C00081A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDAA89B7280EFA5A00081A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAA89C3280EFA5B00081A7F /* ViewController.swift in Sources */,
+				BDAA89BF280EFA5A00081A7F /* AppDelegate.swift in Sources */,
+				BDAA89C1280EFA5A00081A7F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAA89CD280EFA5C00081A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAA89D6280EFA5C00081A7F /* JunTalk2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAA89D8280EFA5C00081A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAA89E1280EFA5C00081A7F /* JunTalk2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDAA89D3280EFA5C00081A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAA89BA280EFA5A00081A7F /* JunTalk2 */;
+			targetProxy = BDAA89D2280EFA5C00081A7F /* PBXContainerItemProxy */;
+		};
+		BDAA89DE280EFA5C00081A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAA89BA280EFA5A00081A7F /* JunTalk2 */;
+			targetProxy = BDAA89DD280EFA5C00081A7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDAA89C4280EFA5B00081A7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDAA89C5280EFA5B00081A7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDAA89C9280EFA5B00081A7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDAA89CA280EFA5B00081A7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDAA89E3280EFA5C00081A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDAA89E4280EFA5C00081A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDAA89E6280EFA5C00081A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AXRWTV5YW;
+				INFOPLIST_FILE = JunTalk2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.JunTalk2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDAA89E7280EFA5C00081A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AXRWTV5YW;
+				INFOPLIST_FILE = JunTalk2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.JunTalk2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDAA89E9280EFA5C00081A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AXRWTV5YW;
+				INFOPLIST_FILE = JunTalk2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.JunTalk2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JunTalk2.app/JunTalk2";
+			};
+			name = Debug;
+		};
+		BDAA89EA280EFA5C00081A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AXRWTV5YW;
+				INFOPLIST_FILE = JunTalk2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.JunTalk2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JunTalk2.app/JunTalk2";
+			};
+			name = Release;
+		};
+		BDAA89EC280EFA5C00081A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AXRWTV5YW;
+				INFOPLIST_FILE = JunTalk2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.JunTalk2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JunTalk2;
+			};
+			name = Debug;
+		};
+		BDAA89ED280EFA5C00081A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AXRWTV5YW;
+				INFOPLIST_FILE = JunTalk2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.JunTalk2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JunTalk2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDAA89B6280EFA5A00081A7F /* Build configuration list for PBXProject "JunTalk2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAA89E3280EFA5C00081A7F /* Debug */,
+				BDAA89E4280EFA5C00081A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAA89E5280EFA5C00081A7F /* Build configuration list for PBXNativeTarget "JunTalk2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAA89E6280EFA5C00081A7F /* Debug */,
+				BDAA89E7280EFA5C00081A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAA89E8280EFA5C00081A7F /* Build configuration list for PBXNativeTarget "JunTalk2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAA89E9280EFA5C00081A7F /* Debug */,
+				BDAA89EA280EFA5C00081A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAA89EB280EFA5C00081A7F /* Build configuration list for PBXNativeTarget "JunTalk2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAA89EC280EFA5C00081A7F /* Debug */,
+				BDAA89ED280EFA5C00081A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDAA89B3280EFA5A00081A7F /* Project object */;
+}
