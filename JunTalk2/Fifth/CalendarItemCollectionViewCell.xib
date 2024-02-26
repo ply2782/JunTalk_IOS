@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="calendarItemCell" id="gTV-IL-0wX" customClass="CalendarItemCollectionViewCell" customModule="JunTalk2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="181" height="145"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="181" height="145"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TVP-9H-Yyl">
+                        <rect key="frame" x="0.0" y="0.0" width="181" height="145"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WwB-DJ-Cfd">
+                                <rect key="frame" x="69.5" y="62" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKu-GK-e46">
+                                <rect key="frame" x="78" y="93" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="AIP-Xo-ITm"/>
+                                    <constraint firstAttribute="width" constant="25" id="zyT-g4-v7J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="XKu-GK-e46" firstAttribute="top" secondItem="WwB-DJ-Cfd" secondAttribute="bottom" constant="10" id="C4C-If-pKl"/>
+                            <constraint firstItem="WwB-DJ-Cfd" firstAttribute="centerY" secondItem="TVP-9H-Yyl" secondAttribute="centerY" id="CB5-cv-qBF"/>
+                            <constraint firstItem="XKu-GK-e46" firstAttribute="centerX" secondItem="WwB-DJ-Cfd" secondAttribute="centerX" id="DJa-tl-ddU"/>
+                            <constraint firstItem="WwB-DJ-Cfd" firstAttribute="centerX" secondItem="TVP-9H-Yyl" secondAttribute="centerX" id="eX0-ZB-j76"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="TVP-9H-Yyl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="NgQ-k7-LQD"/>
+                <constraint firstItem="TVP-9H-Yyl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Ubx-as-8Jy"/>
+                <constraint firstAttribute="trailing" secondItem="TVP-9H-Yyl" secondAttribute="trailing" id="bR0-ji-hMI"/>
+                <constraint firstAttribute="bottom" secondItem="TVP-9H-Yyl" secondAttribute="bottom" id="fxh-ip-a3P"/>
+            </constraints>
+            <size key="customSize" width="181" height="145"/>
+            <connections>
+                <outlet property="dateLabel" destination="WwB-DJ-Cfd" id="34d-0d-9AV"/>
+                <outlet property="itemCountLabel" destination="XKu-GK-e46" id="MvL-lY-uPt"/>
+            </connections>
+            <point key="canvasLocation" x="232.60869565217394" y="65.959821428571431"/>
+        </collectionViewCell>
+    </objects>
+</document>

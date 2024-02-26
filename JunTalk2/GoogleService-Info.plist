@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>517397119021-kas6m69spktlhnecvpmu5meik9cr810f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.517397119021-kas6m69spktlhnecvpmu5meik9cr810f</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>517397119021-1trlp3kn0qbm0l8urptjt9ujkir4ejls.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAMHAgcUJQcwuvKWStdSwDERK7qqRSDhEQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>517397119021</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>test.JunTalk2</string>
+	<key>PROJECT_ID</key>
+	<string>juntalk2-bb291</string>
+	<key>STORAGE_BUCKET</key>
+	<string>juntalk2-bb291.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:517397119021:ios:4772b394a6cdfec8c138a4</string>
+	<key>DATABASE_URL</key>
+	<string>https://juntalk2-bb291-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

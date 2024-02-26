@@ -1,0 +1,6 @@
+framework module Pods_JunTalk2_NotificationServiceExtension {
+  umbrella header "Pods-JunTalk2-NotificationServiceExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

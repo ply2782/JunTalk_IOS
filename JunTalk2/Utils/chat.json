@@ -1,0 +1,37 @@
+
+[{
+    "userId": "Krish",
+    "userImage": "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2552&q=80",
+    "is_sent_by_me": true,
+    "userConversation": "Hi all!"
+}, {
+    "userId": "Ram",
+    "userImage": "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2552&q=80",
+    "is_sent_by_me": false,
+    "userConversation": "Hello eyery one!"
+}, {
+    "userId": "Krish",
+    "userImage": "https://www.whoa.in/20130627-Whoa/natural-butterfly-image-for-mobile.jpg",
+    "is_sent_by_me": true,
+    "userConversation": "Hope you all having a great day!"
+}, {
+    "userId": "Krish",
+    "userImage": "https://www.whoa.in/20130627-Whoa/natural-butterfly-image-for-mobile.jpg",
+    "is_sent_by_me": true,
+    "userConversation": "Send some programming tutorials and their links"
+}, {
+    "userId": "Ram",
+    "userImage": "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2552&q=80",
+    "is_sent_by_me": false,
+    "userConversation": "Hi , I already shared with you yesterday, please check your email."
+}, {
+    "userId": "Hemanth",
+    "userImage": "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2552&q=80",
+    "is_sent_by_me": false,
+    "userConversation": "Hi , share with me as well."
+}, {
+    "userId": "Krish",
+    "userImage": "https://www.whoa.in/20130627-Whoa/natural-butterfly-image-for-mobile.jpg",
+    "is_sent_by_me": true,
+    "userConversation": "Okay, I will share with you all by today."
+}]

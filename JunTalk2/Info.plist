@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>JunTalk</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,11 +17,85 @@
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>kakaob01aaf833b224fe7a270f1899cd6ceff</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>KAKAO_APP_KEY</key>
+	<string>b01aaf833b224fe7a270f1899cd6ceff</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>kakaokompassauth</string>
+		<string>kakaolink</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>Allow Arbitary Loads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>http://ply2782ply2782.cafe24.com:8080</key>
+			<dict>
+				<key>NSAllowsArbitraryLoads</key>
+				<true/>
+				<key>NSAllowsArbitraryLoadsInWebContent</key>
+				<true/>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>‘JunTalk’에서 음악 권한을 요청합니다.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>‘JunTalk’에서 대화를 위한 블루투스 권한을 요청합니다.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>‘JunTalk’에서 대화를 위한 블루투스 권한을 요청합니다.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>‘JunTalk’에서 날짜 확인을 위해 달력 권한을 요청합니다.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>‘JunTalk’에서 유저의 프로필사진 등록,게시물 작성 등을 위해 카메라 권한을 요청합니다</string>
+	<key>NSContactsUsageDescription</key>
+	<string>'JunTalk'에서 주소록에 등록된 유저를 차단하기 위해 주소록정보를 요청합니다.</string>
+	<key>NSFileProviderDomainUsageDescription</key>
+	<string>파일 접근 권한을 사용합니다</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>위치기능 사용시 사용자의 현재 위치를 포함하기 위한 위치 권한 요청</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>‘JunTalk’에서 유저의 게시물 작성을 위해 마이크 권한을 요청합니다</string>
+	<key>NSMotionUsageDescription</key>
+	<string>‘JunTalk’에서 모션을 위한 권한을 요청합니다.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>‘JunTalk’에서 유저의 프로필사진 등록,게시물 작성 등을 위해 앨범권한을 요청합니다</string>
+	<key>NSSiriUsageDescription</key>
+	<string>‘JunTalk’에서 시리 권한을 요청합니다.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>‘JunTalk’에서 음성인식 권한을 요청합니다.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This identifier will be allowed to permission of tracking this app </string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SevenLight.ttf</string>
+		<string>SevenBold.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -39,8 +115,14 @@
 			</array>
 		</dict>
 	</dict>
+    
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -49,18 +131,16 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="User">
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="android_id" optional="YES" attributeType="String"/>
+        <attribute name="currentState" optional="YES" attributeType="String"/>
+        <attribute name="delete" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="firebaseToken" optional="YES" attributeType="String"/>
+        <attribute name="networkCountryIso" optional="YES" attributeType="String"/>
+        <attribute name="networkOperator" optional="YES" attributeType="String"/>
+        <attribute name="networkOperatorName" optional="YES" attributeType="String"/>
+        <attribute name="simCountryIso" optional="YES" attributeType="String"/>
+        <attribute name="simOperator" optional="YES" attributeType="String"/>
+        <attribute name="simOperatorName" optional="YES" attributeType="String"/>
+        <attribute name="simState" optional="YES" attributeType="String"/>
+        <attribute name="user_Index" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="user_Introduce" optional="YES" attributeType="String"/>
+        <attribute name="user_lastLogin" optional="YES" attributeType="String"/>
+        <attribute name="userBirthDay" optional="YES" attributeType="String"/>
+        <attribute name="userDeleteDate" optional="YES" attributeType="String"/>
+        <attribute name="userGender" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <attribute name="userJoinDate" optional="YES" attributeType="String"/>
+        <attribute name="userKakaoId" optional="YES" attributeType="String"/>
+        <attribute name="userKakaoOwnNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userMainPhoto" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="userPassword" optional="YES" attributeType="String"/>
+        <attribute name="userPhoneNumber" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="404"/>
+    </elements>
+</model>

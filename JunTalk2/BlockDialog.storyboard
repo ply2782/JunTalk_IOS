@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Block Dialog View Controller-->
+        <scene sceneID="YBJ-Mt-PD3">
+            <objects>
+                <viewController storyboardIdentifier="BlockDialogViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eO1-7O-NPS" customClass="BlockDialogViewController" customModule="JunTalk2" customModuleProvider="target" colorLabel="IBBuiltInLabel-Red" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="24o-sC-us2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p96-Am-K7m">
+                                <rect key="frame" x="44.5" y="297" width="325" height="325"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqW-iO-shk">
+                                        <rect key="frame" x="137" y="231" width="52" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="차단하기"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWi-RA-Ojv">
+                                        <rect key="frame" x="137" y="193" width="52" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="신고하기"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="325" id="D0f-Tt-gTX"/>
+                                    <constraint firstAttribute="height" constant="325" id="LuL-td-3Ea"/>
+                                    <constraint firstAttribute="width" secondItem="p96-Am-K7m" secondAttribute="height" multiplier="325:302" constant="-24.751655629139066" id="ea3-cx-hJR"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="exclamationmark.triangle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="HxI-Dv-pd8">
+                                <rect key="frame" x="182" y="314" width="50" height="48"/>
+                                <color key="tintColor" red="1" green="0.61730376177901913" blue="0.86015813635353011" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HxI-Dv-pd8" secondAttribute="height" multiplier="1:1" id="RX4-VB-hd2"/>
+                                    <constraint firstAttribute="width" constant="50" id="V9E-Xa-bne"/>
+                                    <constraint firstAttribute="height" constant="50" id="rDn-Wg-L1Z"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0Iu-5I-qUT">
+                                <rect key="frame" x="87" y="361" width="240" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">1. 해당 게시물 내용과 사진 및 동영상이 적합하지 않다고 판단되면 게시물이 차단될 수 있음을 알려드립니다. 
+
+2.정책과 관련한 내용에 부합하지 않을 경우 주의 조치가 있음을 알려드립니다.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7q-cf-Ke7">
+                                <rect key="frame" x="192" y="565" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="취소"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gUH-qY-fvU"/>
+                        <color key="backgroundColor" red="0.732630149605348" green="0.732630149605348" blue="0.732630149605348" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="HxI-Dv-pd8" firstAttribute="top" secondItem="gUH-qY-fvU" secondAttribute="top" constant="269" id="3B9-ah-9h8"/>
+                            <constraint firstItem="p96-Am-K7m" firstAttribute="centerX" secondItem="24o-sC-us2" secondAttribute="centerX" id="XGg-on-DCn"/>
+                            <constraint firstItem="HxI-Dv-pd8" firstAttribute="centerX" secondItem="24o-sC-us2" secondAttribute="centerX" id="eDi-Fb-4fa"/>
+                            <constraint firstItem="p96-Am-K7m" firstAttribute="centerY" secondItem="24o-sC-us2" secondAttribute="centerY" constant="11.5" id="qPJ-nP-z5b"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cacnelButton" destination="l7q-cf-Ke7" id="iJ1-fM-Z4a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S9d-FF-vaE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="307" y="54"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="exclamationmark.triangle" catalog="system" width="128" height="112"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
